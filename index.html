@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Example</title>
+  </head>
+  <body>
+    <header id="head" class="head">
+      <nav class="navi">
+        <ul>
+          <li><a href="#welcome">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="welcome" id="welcome">
+      <div class="first">
+        <div class="first-main">
+          <div class="main-text">
+            <button class="slo">Welcome</button>
+            <h2>
+              I can create a <span style="color: #06a306">website</span> for you
+            </h2>
+            <p>
+              Hi, I'm ..., a frontend developer. I can help you create a
+              stunning and user-friendly website for your business that will
+              captivate visitors and encourage them to choose your product or
+              service. Let's bring your vision to life!
+            </p>
+            <div class="first-btn">
+              <a href="#contact" class="main-btn">Contact Me</a>
+              <a href="#portfolio " class="main-btn1">
+                View Portfolio <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="main-img">
+            <img src="./img/player_silhouette.png" alt="..." />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="second">
+        <div class="second-main">
+          <button class="slo">My skills</button>
+          <h2>
+            Why <span style="color: #06a306">ME</span> for your next project
+          </h2>
+          <p>
+            I am open to any feedback and ready to adapt to the desired style,
+            as my priority is to make our collaboration easier and achieve the
+            best results, I also specialize in UX/UI design and can work in
+            Photoshop
+          </p>
+        </div>
+        <div class="second-cards">
+          <div class="second-card left">
+            <h3>Designer</h3>
+            <p>creating a beautiful and user-friendly website design)))</p>
+          </div>
+          <div class="second-card center">
+            <h3>Photoshop</h3>
+            <p>
+              working in Photoshop will make the website more harmonious and
+              unique
+            </p>
+          </div>
+          <div class="second-card left">
+            <h3>Frontend</h3>
+            <p>
+              I can create a responsive and interactive website using modern
+              technologies
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="thrid">
+        <div class="thrid-main">
+          <button class="slo">Portfolio</button>
+          <h2>One of the my latest project that I did.</h2>
+          <p>
+            You can see my last project in these images I approached this with
+            maximum creativity. I tried to combine visual aesthetics with
+            functionality to achieve an impressive result.
+          </p>
+        </div>
+        <div class="thrid-img">
+          <span class="arrow-left left">
+            <i class="fa-solid fa-arrow-left"></i
+          ></span>
+          <img
+            class="img-portfolio"
+            src="./img/first.png"
+            alt="ЕБАТЬ ВАСЯ НЕ РОБИТ"
+          />
+          <span class="arrow-right"
+            ><i class="fa-solid fa-arrow-right"></i
+          ></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="fourth">
+        <div class="fourth-main">
+          <button class="slo">Contact</button>
+          <h2>We Can Talk About Your Project</h2>
+          <p>
+            Let's make your project more beautiful, aesthetically and practical
+            or discuss project from the very beginning
+          </p>
+        </div>
+        <div class="contact-form">
+          <div class="mycontact">
+            <div class="contact-card">
+              <p>Call me</p>
+              <a
+                class="qwe"
+                id="qwe"
+                onClick="alert('COPIED TO CLIPBOARD'); navigator.clipboard.writeText('+7-(777)-952-27-42')"
+                >+7-(777)-952-27-42</a
+              >
+            </div>
+            <div class="contact-card">
+              <p>Email me</p>
+              <a
+                class="qwe"
+                id="qwe"
+                onClick="alert('COPIED TO CLIPBOARD'); navigator.clipboard.writeText('oka.bk.ru@gmail.com')"
+                >oka.bk.ru@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="fourth-form">
+            <div class="form-top">
+              <form action="#" class="form-all">
+                <div class="form-piece">
+                  <label for="name"></label>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+              </form>
+              <form action="#" class="form-all">
+                <div class="form-piece">
+                  <label for="mail"></label>
+                  <input
+                    type="email"
+                    name="mail"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="form-bottom">
+              <form action="#" class="form-all">
+                <div class="form-piece">
+                  <label for="phone"></label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone Number"
+                    required
+                  />
+                </div>
+              </form>
+              <form action="#" class="form-all">
+                <div class="form-piece">
+                  <label for="budget"></label>
+                  <input
+                    type="number"
+                    name="budget"
+                    placeholder=" Your budget"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="form-piece">
+              <label for="about_me"></label>
+              <textarea
+                name="about_me"
+                id="about_me"
+                cols="55"
+                rows="8"
+                placeholder="Say me about your project"
+              ></textarea>
+            </div>
+            <div class="input">
+              <input type="submit" value="Submit Message" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-left">This website is created only as an example</div>
+      <div class="footer-center">
+        If you have any questions, feel free to contact me!
+      </div>
+      <div class="footer-right">
+        <a
+          href="https://www.instagram.com/aset.k_k/"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://t.me/Agogoli" target="_blank" aria-label="Telegram">
+          <i class="fab fa-telegram-plane"></i>
+        </a>
+        <a href="https://x.com/aset35920591367" target="_blank" aria-label="X">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://wa.me/77779522742"
+          target="_blank"
+          aria-label="WhatsApp"
+        >
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/index.js"></script>
+</html>
